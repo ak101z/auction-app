@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import PlayerCard from './Component/PlayerCard/PlayerCard';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PlayerCard />
   </React.StrictMode>,
   document.getElementById('root')
 );
